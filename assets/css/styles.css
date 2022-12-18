@@ -1,0 +1,124 @@
+/*Div contenedor de div busqueda y resultado*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+    font-family: 'Raleway';
+   
+    gap: 1px; 
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+header h1{
+    margin-bottom: 0px;
+}
+/*Area de ingreso parámetros de búsqueda*/
+aside {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    grid-area: aside;
+    color: white;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    background-color: #4D4D4D;
+}
+
+.encontrados{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+main {
+    grid-area: main;
+    padding-left: 10px;
+    background-color: #4D4D4D;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    background-color: grey;
+    height: 75vh;
+}
+
+aside .cuadro-texto {
+    border-radius: 5px;
+    width: 75px;
+    border: none;
+}
+
+
+.lbl-cuartos {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+aside .lbl-mt2 {
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+div .desde-hasta {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "de ha"
+        "de1 ha1";
+    gap: 10px;
+}
+
+de {
+    height: auto;
+    text-align: center;
+}
+
+ha {
+    text-align: center;
+    height: auto;
+}
+
+div .btn-calculo {
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #FEC007;
+}
+
+/*Area de resultados*/
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+}
+
+.card-title {
+    text-align: center;
+}
+.card-body {
+    background-color: #4D4D4D;    
+    color: white;
+    font-size: 12px;
+}
+
+.card-img-top{    
+    height: 10vw;
+    object-fit: cover;
+}
+
+.card-body .metros{
+    padding-left: 20px;
+}

@@ -1,0 +1,53 @@
+{
+    "Casas": [
+        {
+            "Tipo": "Casa de campo",
+            "Dormitorios": 6,
+            "Metros": 460,
+            "Descripcion": "Espectacular casa habitacional de construcción sólida, en exclusivo condominio Arboretum Mirador. Emplazada en 4.600 metros cuadrados de terreno, tiene amplios e iluminados espacios.",
+            "Foto": "assets/img/casadecampo.webp"
+        },
+        {
+            "Tipo": "Casa de playa",
+            "Dormitorios": 4,
+            "Metros": 450,
+            "Descripcion": "Jardines, entrada al menos 4 vehículos. Bodega. Casa en Tres Niveles, 4 Dormitorios, 3 Baños, Amplio Living Comedor con cocina americana.Dos Terrazas. Vista al mar. a minutos de la playa.",
+            "Foto": "assets/img/casaplaya.webp"
+        },
+        {
+            "Tipo": "Casa en el centro",
+            "Dormitorios": 2,
+            "Metros": 100,
+            "Descripcion": "Hermosa casona patrimonial de uso mixto ubicada en el mejor barrio histórico y consolidado de Santiago, a pasos de Club Hípico",
+            "Foto": "assets/img/casacentro.webp"
+        },
+        {
+            "Tipo": "Casa rodante",
+            "Dormitorios": 3,
+            "Metros": 40,
+            "Descripcion": "Es un vehículo de 12 metros de largo que tiene un lujoso interior y que además permite llevar un auto en una cabina equipada con sistema de apertura electrohidráulico",
+            "Foto": "assets/img/casarodante.jpg"
+        },
+        {
+            "Tipo": "Departamento",
+            "Dormitorios": 1,
+            "Metros": 225,
+            "Descripcion": "En Venta Casa Remodelada con excelente ubicación, con auténtica vida de barrio y muy bien emplazada en terreno de 225 m2.",
+            "Foto": "assets/img/depto.webp"
+        },
+        {
+            "Tipo": "Mansión",
+            "Dormitorios": 6,
+            "Metros": 600,
+            "Descripcion": "Vendo maravillosa Mansión, para deleitar su magnificencia. Ideal para inversionistas nacionales e internacionales que desean vivir o invertir en Chile.",
+            "Foto": "assets/img/mansion.webp"
+        },
+        {
+            "Tipo": "Casa de lujo",
+            "Dormitorios": 3,
+            "Metros": 200,
+            "Descripcion": "Esta hermosa casa, cuenta con antejardín, y patio interior con un hermoso árbol limonero, que brinda sombra y frutos durante gran parte del año.",
+            "Foto": "assets/img/casa01.webp"
+        }
+    ]
+}
